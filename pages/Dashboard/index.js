@@ -21,8 +21,8 @@ export default function Dashboard() {
                                 </svg>
                             </button>
                             <a href="https://demo.themesberg.com/windster/" className="text-xl font-bold flex items-center lg:ml-2.5">
-                                <img src="https://demo.themesberg.com/windster/images/logo.svg" className="h-6 mr-2" alt="Windster Logo" />
-                                <span className="self-center whitespace-nowrap">Windster</span>
+                                <img src="/img/onl.png" className="h-6 mr-2" alt="ONL Logo" />
+                                <span className="self-center whitespace-nowrap">ONL Tools</span>
                             </a>
                             <form action="#" method="GET" className="hidden lg:block lg:pl-32">
                                 <label htmlFor="topbar-search" className="sr-only">Search</label>
@@ -60,7 +60,7 @@ export default function Dashboard() {
                 </div>
             </nav>
             <div className="flex overflow-hidden bg-white pt-16">
-                <aside id="sidebar" className="fixed hidden z-20 h-full top-0 left-0 pt-16 flex lg:flex flex-shrink-0 flex-col w-64 transition-width duration-75" aria-label="Sidebar">
+                <aside id="sidebar" className="fixed z-20 h-full top-0 left-0 pt-16 flex lg:flex flex-shrink-0 flex-col w-64 transition-width duration-75" aria-label="Sidebar">
                     <div className="relative flex-1 flex flex-col min-h-0 border-r border-gray-200 bg-white pt-0">
                         <div className="flex-1 flex flex-col pt-5 pb-4 overflow-y-auto">
                             <div className="flex-1 px-3 bg-white divide-y space-y-1">

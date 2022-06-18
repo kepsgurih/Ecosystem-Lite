@@ -20,6 +20,9 @@ function MyApp({ Component, pageProps }) {
         }
 
       }
+      else{
+        setIsLoading(false)
+      }
     })
   }, [])
   if (isLoading) {
@@ -31,7 +34,9 @@ function MyApp({ Component, pageProps }) {
       </div>
     )
   }
-  return <Component {...pageProps} />
+  else{
+    return <Component {...pageProps} />
+  }
 }
 
 export default MyApp
